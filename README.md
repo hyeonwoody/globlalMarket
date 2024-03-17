@@ -5,7 +5,7 @@
 ## 🗓️: Development Period
 2023년 12월 ~ 현재 (약 3개월), 개발 1명.
 
-## : Settings
+## ⚙️: Custom Settings
 1. IP주소 업데이트
    **src/main/frontend/src/configuration/web/webConfig.ts** 파일, ***this.ipAddress*** 수정
    **src/main/resources/application.properties** 파일, ***my.ipAddress*** 수정
@@ -71,19 +71,3 @@ sh app.sh stop // 앱 프로세서 종료
 > API 데이터 직렬화
 > 
 > 정돈된 UI
-
-<br>
-
-
-
-
-
-
-
-
-
-## 커스텀 설정
-
-
-## 빌드 및 실행
-커스텀 설정 완료 후 아래 명령어 실행.
