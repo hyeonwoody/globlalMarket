@@ -6,28 +6,31 @@
 2023년 12월 ~ 현재 (약 3개월), 개발 1명.
 
 ## ⚙️: Custom Settings
-1. IP주소 업데이트
-   **src/main/frontend/src/configuration/web/webConfig.ts** 파일, ***this.ipAddress*** 수정
-   **src/main/resources/application.properties** 파일, ***my.ipAddress*** 수정
+1. IP주소 업데이트 
 
->	this.ip.Address와 my.ipAddress의 값이 동일해야 합니다.
+>   **src/main/frontend/src/configuration/web/webConfig.ts** 파일, ***this.ipAddress*** 수정
+>   **src/main/resources/application.properties** 파일, ***my.ipAddress*** 수정
 
-2. 데이터 베이스 업데이트
-   **src/main/resources/application.properties** 파일에서,
-   ***spring.datasource.url***,
-   ***spring.datasource.username***,
-   ***spring.datasource.password***,
-   수정.
+    this.ip.Address와 my.ipAddress의 값이 동일해야 합니다.
 
->	hikari 초기화가 되지 않아 빌드 에러 발생하는 것 방지
-(실제로 데이터 베이스를 사용하지 않도록 코드 수정을 했으니,
-임의의 테이블 생성 후 접속 가능한 데이터 베이스를 입력 하셔도 됩니다.
+2. 데이터 베이스 업데이트 
+
+>   **src/main/resources/application.properties** 파일에서,
+>   ***spring.datasource.url***,
+>   ***spring.datasource.username***,
+>   ***spring.datasource.password***,
+>   수정.
+
+    hikari 초기화가 되지 않아 빌드 에러 발생하는 것 방지
+    (실제로 데이터 베이스를 사용하지 않도록 코드 수정을 했으니,
+    임의의 테이블 생성 후 접속 가능한 데이터 베이스를 입력 하셔도 됩니다.
 
 3. API 유효 인증
-   **src/main/resources/naverCredentials.json** 파일에
-   커머스 API의 애플리케이션ID (***client_id***), 애플리케이션 Secret (***client_secret***) 입력
+   
+>   **src/main/resources/naverCredentials.json** 파일에
+>   커머스 API의 애플리케이션ID (***client_id***), 애플리케이션 Secret (***client_secret***) 입력
 
->[네이버 커머스API센터 (naver.com)](https://apicenter.commerce.naver.com/ko/member/application/manage/detail;id=XXXXXXXXXXXXXXXXXXX)에서 확인 가능합니다.
+    [네이버 커머스API센터 (naver.com)](https://apicenter.commerce.naver.com/ko/member/application/manage/detail;id=XXXXXXXXXXXXXXXXXXX)에서 확인 가능합니다.
 
 ## 🚀: Build & Run
 
