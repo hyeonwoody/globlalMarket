@@ -39,9 +39,6 @@ out/
 ### Special ###
 #/src/main/frontend/src/configuration/special/SpecialConfig.ts
 
-### Various properties ###
-*.properties
-
 /src/main/frontend/nohup.out
 
 ### special scripts
