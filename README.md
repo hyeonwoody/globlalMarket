@@ -76,6 +76,8 @@ sh app.sh stop // 앱 프로세서 종료
 
 
 ## 🔥: Accomplishments
-> API 데이터 직렬화
+> Jackson Deserializer를 활용한 API 데이터 직렬화
 > 
-> 정돈된 UI
+> 해외 E-커머스 상품 정보 크롤링
+> 
+> 계층형 컴포넌트
