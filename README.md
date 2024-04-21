@@ -1,14 +1,29 @@
 # Global Market 
 해외직구구매대행이 쉬워지는 쇼핑몰 통합관리 서비스.
 
-
+<br>
 
 ## 🧑‍💻: Intro
 네이버 스마트스토어 상품등록 기능을 구현하는 Java + React WAS (Excluding 데이터베이스 Ver.)
 
+<br>
+
+## 🧱: Structure
+![Web App Reference Architecture V2](https://github.com/hyeonwoody/globlalMarket/assets/75844701/6d001b54-d7d2-4354-88a4-c2229d058a7d)
+
+
+</br>
+
+## 🛢️: Entity Relationship Diagram
+![globalMarket](https://github.com/hyeonwoody/globlalMarket/assets/75844701/4b50710b-bc1a-45c7-b2bf-deba70fb5dd2)
+
+
+</br>
 
 ## 🗓️: Development Period
 2023년 12월 ~ 현재 (약 3개월), 개발 1명.
+
+</br>
 
 ## ⚙️: Custom Settings
 ### 1. IP주소 업데이트 
@@ -37,6 +52,8 @@
 
     [네이버 커머스API센터 (naver.com)](https://apicenter.commerce.naver.com/ko/member/application/manage/detail;id=XXXXXXXXXXXXXXXXXXX)에서 확인 가능합니다.
 
+</br>
+
 ## 🚀: Build & Run
 ### 0. 커스텀 세팅을 해주셔야 제대로 작동 됩니다.😭
 ### 1. 빌드
@@ -51,12 +68,14 @@ sh app.sh start // 자바 이미지 실행과 npm start
 ```bash
 sh app.sh stop // 앱 프로세서 종료
 ```
-
+</br>
 
 ## 📞: Contact
 - 이메일: hyeonwoody@gmail.com
 - 블로그: https://velog.io/@hyeonwoody
 - 깃헙: https://github.com/hyeonwoody
+
+</br>
 
 ## 🧱: Technologies Used
 > Java
@@ -64,6 +83,8 @@ sh app.sh stop // 앱 프로세서 종료
 > React
 >
 > Github
+
+</br>
 
 ## 📖: Libraries Used
 > Naver Commerce API
@@ -74,10 +95,13 @@ sh app.sh stop // 앱 프로세서 종료
 > 
 > Apache Common Image
 
+</br>
 
 ## 🔥: Accomplishments
-> Jackson Deserializer를 활용한 API 데이터 직렬화
+> [Jackson Deserializer를 활용한 API 데이터 직렬화](https://github.com/hyeonwoody/globlalMarket/wiki/Jackson-Deserializer)
 > 
 > 해외 E-커머스 상품 정보 크롤링
+>
+> Github 레포지토리 커밋을 통한 영속적인 이미지 URL 생성
 > 
 > 계층형 컴포넌트
