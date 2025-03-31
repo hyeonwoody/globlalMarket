@@ -9,7 +9,8 @@
 <br>
 
 ## 🧱: Structure
-![Web App Reference Architecture V2](https://github.com/hyeonwoody/globlalMarket/assets/75844701/6d001b54-d7d2-4354-88a4-c2229d058a7d)
+![Web App Reference Architecture V2](https://github.com/user-attachments/assets/11af0f9f-92da-4f44-b649-0c96c0ec40c7)
+
 
 
 </br>
