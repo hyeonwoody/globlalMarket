@@ -79,22 +79,22 @@ sh app.sh stop // 앱 프로세서 종료
 </br>
 
 ## 🧱: Technologies Used
-> Java
+> Java  
 > 
-> React
+> React  
 > 
-> Github    
+> Github  
 
 </br>
 
 ## 📚: Libraries Used
-> Naver Commerce API
+> Naver Commerce API  
 > 
-> Jackson
+> Jackson  
 > 
-> Gson
+> Gson  
 > 
-> Apache Common Image
+> Apache Common Image  
 
 </br>
 
