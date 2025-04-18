@@ -87,7 +87,7 @@ sh app.sh stop // 앱 프로세서 종료
 
 </br>
 
-## 📖: Libraries Used
+## 📚: Libraries Used
 > Naver Commerce API
 > 
 > Jackson
